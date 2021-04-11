@@ -6,6 +6,8 @@ Lauantaina 10.4.2021 koodailin UI:n parissa tunnissa yhdistämällä aikaisemmin
 
 Sunnuntaina 11.4.2021 reduxsaucen - jsonplaceholder datan saaminen siihen ja edelleen reduxsaucen kautta tulleen datan saaminen ja näyttäminen UI components kansiossa - suunnittelua, tiedonhankintaa ja koodailua pari tuntia. Käyttäjän luomisessa form kentän lisäykset. Reduxsaucessa ei ole varsinaista store tiedostoa.
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Tehtävänäsi on toteuttaa React-sovellus JavaScript:llä, joka käyttää REST-rajapintaa, ylläpitää sovelluksen tilaa Reduxissa sekä käyttää React Routeria sivurakenteen toteuttamisessa.
 
 REST-rajapinnan toteuttavan palvelimen löydät osoitteesta: https://github.com/typicode/jsonplaceholder/archive/master.zip.
