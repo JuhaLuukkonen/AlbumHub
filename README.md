@@ -1,10 +1,10 @@
 # Buildie-koodaustehtävä
 
-# Juha Luukkonen
+### Juha Luukkonen
 
-# Lauantaina 10.4.2021 koodailin UI:n parissa tunnissa yhdistämällä aikaisemmin koodaamani React router UI sivurakenteen, jossa voi lisätä käyttäjän ja muokkaamaan tietoja. REST:n ja Redux souce tilanhallinnan kautta en vielä saa json dataa. Luodut käyttäjät eivät vielä tallennu vaan häviävät sivua päivittäessä.
+Lauantaina 10.4.2021 koodailin UI:n parissa tunnissa yhdistämällä aikaisemmin koodaamani React router UI sivurakenteen, jossa voi lisätä käyttäjän ja muokkaamaan tietoja. REST:n ja Redux souce tilanhallinnan kautta en vielä saa json dataa. Luodut käyttäjät eivät vielä tallennu vaan häviävät sivua päivittäessä.
 
-# Sunnuntaina 11.4.2021 reduxsaucen - jsonplaceholder datan saaminen siihen ja edelleen reduxsaucen kautta tulleen datan saaminen ja näyttäminen UI components kansiossa - suunnittelua, tiedonhankintaa ja koodailua pari tuntia. Käyttäjän luomisessa form kentän lisäykset. Reduxsaucessa ei ole varsinaista store tiedostoa.
+Sunnuntaina 11.4.2021 reduxsaucen - jsonplaceholder datan saaminen siihen ja edelleen reduxsaucen kautta tulleen datan saaminen ja näyttäminen UI components kansiossa - suunnittelua, tiedonhankintaa ja koodailua pari tuntia. Käyttäjän luomisessa form kentän lisäykset. Reduxsaucessa ei ole varsinaista store tiedostoa.
 
 Tehtävänäsi on toteuttaa React-sovellus JavaScript:llä, joka käyttää REST-rajapintaa, ylläpitää sovelluksen tilaa Reduxissa sekä käyttää React Routeria sivurakenteen toteuttamisessa.
 
