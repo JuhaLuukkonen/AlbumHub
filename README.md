@@ -39,7 +39,6 @@ Backendiä REST-rajapintaa ei käytetä ollenkaan.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Tehtävänäsi on toteuttaa React-sovellus JavaScript:llä, joka käyttää REST-rajapintaa, ylläpitää sovelluksen tilaa Reduxissa sekä käyttää React Routeria sivurakenteen toteuttamisessa.
 
 REST-rajapinnan toteuttavan palvelimen löydät osoitteesta: https://github.com/typicode/jsonplaceholder/archive/master.zip.
 
@@ -49,7 +48,7 @@ Frontend-sovelluksen pohjat voit ladata sähköpostin linkistä.
 
 Tilanhallinta on konfiguroitu valmiiksi ja sovellus käyttää `reduxsauce` -kirjastoa tilanhallinnan aputyökaluna. Voit vapaasti poistaa ja muokata osa-alueita valmiista pohjasta ja toteuttaa tehtävän täysin vapaasti oman mieltymyksesi mukaisesti. Pohja toimii esimerkkinä ja säästää turhaa konfigurointiin käytettävää aikaa. Pääset näin keskittymään suoraan varsinaiseen tehtävään.
 
-### Sovelluksesta tulee löytyä seuraavat ominaisuudet:
+### Sovelluksen ominaisuudet:
 
 - Käyttäjälistauksen näyttäminen, josta linkit käyttäjän tietoihin
 - Uuden käyttäjän luonti
@@ -73,9 +72,7 @@ Tilanhallinta on konfiguroitu valmiiksi ja sovellus käyttää `reduxsauce` -kir
 - Lomakkeen arvojen validointiin ei tarvitse käyttää aikaa.
 - Muulta osin: se mitä teet, tee huolella. Jos jokin osio vie kohtuuttomasti aikaa, jätä se välistä ja keskity tekemään huolella ne osiot, johon sinulla on aikaa.
 
-### Plussaa jos aikaa ja jaksamista:
+### Plussaa:
 
 - Jest tai muu framework testejä
 - Tyylittely/visuaalisuus
-
-Voit käyttää apuna mitä tahansa JavaScript-kirjastoja ja käytäntöjä projektin toteuttamisessa, mutta muista perustella valintasi esim. commit-viesteissä.
