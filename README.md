@@ -6,6 +6,48 @@ Lauantaina 10.4.2021 koodailin UI:n parissa tunnissa yhdistämällä aikaisemmin
 
 Sunnuntaina 11.4.2021 reduxsaucen - jsonplaceholder datan saaminen siihen ja edelleen reduxsaucen kautta tulleen datan saaminen ja näyttäminen UI components kansiossa - suunnittelua, tiedonhankintaa ja koodailua pari tuntia. Käyttäjän luomisessa form kentän lisäykset. Reduxsaucessa ei ole varsinaista store tiedostoa.
 
+# Puutteet - Buildie kommentointi
+
+- jsonplaceholder kansio fronttikoodin mukana, vaikka sitä ei siellä pitäisi olla 
+
+    - OK, poistettu
+
+- App.js komponentti sisältää tilanhallintaa ja callback handlereitä -> App.js olisi hyvä olla näin yksinkertaisessa sovelluksessa mahdollisimman yksinkertainen
+
+- Tilanhallinta pitäisi olla toteutettu reduxiin -> nyt on sovelluksen root statessa App.js tiedostossa
+
+- Käyttäjälistauksen haku oli toteutettu valmiiksi, mutta palautetussa versiossa ei pysty hakemaan mitenkään dataa, edes valmiiksi toteutettua
+
+- Aikaa on käytetty selkeästi react-pro-sidebar kirjaston käyttöönottoon, sen tuoma lisäarvo on kyseenalainen. Priorisointia olisi ollut syytä tehdä, jossa varsinainen toiminnallisuus olisi ollut hyvä toteuttaa tukeutuen yksinkertaiseen navigointiin.
+
+- for-loopeilla datan käsittely on sekavaa ja ontuvaa
+
+- Edellistä tilaa käsitellään suoraan this.state kautta. Helposti aiheuttaa vaikeasti havaittavan bugin jos asetat uuden tilan vanhan perusteella käyttämättä setStaten callback-versiota, joka palauttaa ensimmäisenä parametrina edellisen tilan.
+
+- Funktioiden nimeämiseen kannattaa kiinnittää huomiota. Esim UserAlbumList sisältää 'cancel'-metodin, jota kutsutaan kaikkien operaatioiden jälkeen. Koodia lukemalla saa sellaisen käsityksen, että operaatio peruutetaan, vaikka todellisuudessa metodin tarkoitus on resetoida tila alkutilaan.
+
+ 
+
+Backendiä REST-rajapintaa ei käytetä ollenkaan.
+
+ 
+
+Toteutukseltaan melko puutteellinen versio palautettu:
+
+- Backend REST-rajapinnan liitos puuttuu täysin
+
+- Sovellus ei sisällä mitään asynkronisuutta
+
+- Tilanhallinta puuttuu täysin
+
+- Navigaatio ei toimi
+
+- Uuden käyttäjän pystyy luoda lokaalisti, mutta ei lähetetä REST-rajapintaan joka loisi uuden käyttäjän
+
+- Git historiaa ei ole
+
+- Sovelluksen vaaditut näkymät eivät ole toteutettu 
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Tehtävänäsi on toteuttaa React-sovellus JavaScript:llä, joka käyttää REST-rajapintaa, ylläpitää sovelluksen tilaa Reduxissa sekä käyttää React Routeria sivurakenteen toteuttamisessa.
