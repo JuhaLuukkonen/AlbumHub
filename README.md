@@ -8,17 +8,11 @@ Sunnuntaina 11.4.2021 reduxsaucen - jsonplaceholder datan saaminen siihen ja ede
 
 # Puutteet
 
-- jsonplaceholder kansio fronttikoodin mukana, vaikka sitä ei siellä pitäisi olla 
-
-    - OK, poistettu
-
 - App.js komponentti sisältää tilanhallintaa ja callback handlereitä -> App.js olisi hyvä olla näin yksinkertaisessa sovelluksessa mahdollisimman yksinkertainen
 
 - Tilanhallinta pitäisi olla toteutettu reduxiin -> nyt on sovelluksen root statessa App.js tiedostossa
 
-- Käyttäjälistauksen haku oli toteutettu valmiiksi, mutta palautetussa versiossa ei pysty hakemaan mitenkään dataa, edes valmiiksi toteutettua
-
-- Aikaa on käytetty selkeästi react-pro-sidebar kirjaston käyttöönottoon, sen tuoma lisäarvo on kyseenalainen. Priorisointia olisi ollut syytä tehdä, jossa varsinainen toiminnallisuus olisi ollut hyvä toteuttaa tukeutuen yksinkertaiseen navigointiin.
+- Käyttäjälistauksen haku alkuperäisen mukaan.
 
 - for-loopeilla datan käsittely on sekavaa ja ontuvaa
 
@@ -30,9 +24,7 @@ Sunnuntaina 11.4.2021 reduxsaucen - jsonplaceholder datan saaminen siihen ja ede
 
 Backendiä REST-rajapintaa ei käytetä ollenkaan.
 
- 
 
-Toteutukseltaan melko puutteellinen versio palautettu:
 
 - Backend REST-rajapinnan liitos puuttuu täysin
 
@@ -44,9 +36,6 @@ Toteutukseltaan melko puutteellinen versio palautettu:
 
 - Uuden käyttäjän pystyy luoda lokaalisti, mutta ei lähetetä REST-rajapintaan joka loisi uuden käyttäjän
 
-- Git historiaa ei ole
-
-- Sovelluksen vaaditut näkymät eivät ole toteutettu 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
