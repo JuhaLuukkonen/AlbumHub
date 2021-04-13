@@ -8,17 +8,11 @@ Sunnuntaina 11.4.2021 reduxsaucen - jsonplaceholder datan saaminen siihen ja ede
 
 # Puutteet
 
-- jsonplaceholder kansio fronttikoodin mukana, vaikka sitä ei siellä pitäisi olla 
-
-    - OK, poistettu
-
 - App.js komponentti sisältää tilanhallintaa ja callback handlereitä -> App.js olisi hyvä olla näin yksinkertaisessa sovelluksessa mahdollisimman yksinkertainen
 
 - Tilanhallinta pitäisi olla toteutettu reduxiin -> nyt on sovelluksen root statessa App.js tiedostossa
 
-- Käyttäjälistauksen haku oli toteutettu valmiiksi, mutta palautetussa versiossa ei pysty hakemaan mitenkään dataa, edes valmiiksi toteutettua
-
-- Aikaa on käytetty selkeästi react-pro-sidebar kirjaston käyttöönottoon, sen tuoma lisäarvo on kyseenalainen. Priorisointia olisi ollut syytä tehdä, jossa varsinainen toiminnallisuus olisi ollut hyvä toteuttaa tukeutuen yksinkertaiseen navigointiin.
+- Käyttäjälistauksen haku alkuperäisen mukaan.
 
 - for-loopeilla datan käsittely on sekavaa ja ontuvaa
 
@@ -30,9 +24,7 @@ Sunnuntaina 11.4.2021 reduxsaucen - jsonplaceholder datan saaminen siihen ja ede
 
 Backendiä REST-rajapintaa ei käytetä ollenkaan.
 
- 
 
-Toteutukseltaan melko puutteellinen versio palautettu:
 
 - Backend REST-rajapinnan liitos puuttuu täysin
 
@@ -44,13 +36,9 @@ Toteutukseltaan melko puutteellinen versio palautettu:
 
 - Uuden käyttäjän pystyy luoda lokaalisti, mutta ei lähetetä REST-rajapintaan joka loisi uuden käyttäjän
 
-- Git historiaa ei ole
-
-- Sovelluksen vaaditut näkymät eivät ole toteutettu 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Tehtävänäsi on toteuttaa React-sovellus JavaScript:llä, joka käyttää REST-rajapintaa, ylläpitää sovelluksen tilaa Reduxissa sekä käyttää React Routeria sivurakenteen toteuttamisessa.
 
 REST-rajapinnan toteuttavan palvelimen löydät osoitteesta: https://github.com/typicode/jsonplaceholder/archive/master.zip.
 
@@ -60,7 +48,7 @@ Frontend-sovelluksen pohjat voit ladata sähköpostin linkistä.
 
 Tilanhallinta on konfiguroitu valmiiksi ja sovellus käyttää `reduxsauce` -kirjastoa tilanhallinnan aputyökaluna. Voit vapaasti poistaa ja muokata osa-alueita valmiista pohjasta ja toteuttaa tehtävän täysin vapaasti oman mieltymyksesi mukaisesti. Pohja toimii esimerkkinä ja säästää turhaa konfigurointiin käytettävää aikaa. Pääset näin keskittymään suoraan varsinaiseen tehtävään.
 
-### Sovelluksesta tulee löytyä seuraavat ominaisuudet:
+### Sovelluksen ominaisuudet:
 
 - Käyttäjälistauksen näyttäminen, josta linkit käyttäjän tietoihin
 - Uuden käyttäjän luonti
@@ -84,11 +72,7 @@ Tilanhallinta on konfiguroitu valmiiksi ja sovellus käyttää `reduxsauce` -kir
 - Lomakkeen arvojen validointiin ei tarvitse käyttää aikaa.
 - Muulta osin: se mitä teet, tee huolella. Jos jokin osio vie kohtuuttomasti aikaa, jätä se välistä ja keskity tekemään huolella ne osiot, johon sinulla on aikaa.
 
-### Plussaa jos aikaa ja jaksamista:
+### Plussaa:
 
 - Jest tai muu framework testejä
 - Tyylittely/visuaalisuus
-
-Voit käyttää apuna mitä tahansa JavaScript-kirjastoja ja käytäntöjä projektin toteuttamisessa, mutta muista perustella valintasi esim. commit-viesteissä.
-
-Palauta valmis projekti zip-paketissa, jossa .git-hakemisto on tallella. Poista projektin node_modules-hakemisto ennen zippausta. Siirrä zip-paketti Google Driveen, Dropboxiin, One driveen tai muuhun palveluun, jonka kautta voit lähettää linkin tehtävääsi. Muista tarkistaa, että linkkiin on pääsyoikeudet kunnossa.
