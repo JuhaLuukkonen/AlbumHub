@@ -90,6 +90,3 @@ Tilanhallinta on konfiguroitu valmiiksi ja sovellus käyttää `reduxsauce` -kir
 - Tyylittely/visuaalisuus
 
 Voit käyttää apuna mitä tahansa JavaScript-kirjastoja ja käytäntöjä projektin toteuttamisessa, mutta muista perustella valintasi esim. commit-viesteissä.
-
-Palauta valmis projekti zip-paketissa, jossa .git-hakemisto on tallella. Poista projektin node_modules-hakemisto ennen zippausta. Siirrä zip-paketti Google Driveen, Dropboxiin, One driveen tai muuhun palveluun, jonka kautta voit lähettää linkin tehtävääsi. Muista tarkistaa, että linkkiin on pääsyoikeudet kunnossa.
-# buildie
