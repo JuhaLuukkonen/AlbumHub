@@ -1,4 +1,4 @@
-# Buildie-koodaustehtävä
+# Album Hub
 
 ### Juha Luukkonen
 
@@ -6,7 +6,7 @@ Lauantaina 10.4.2021 koodailin UI:n parissa tunnissa yhdistämällä aikaisemmin
 
 Sunnuntaina 11.4.2021 reduxsaucen - jsonplaceholder datan saaminen siihen ja edelleen reduxsaucen kautta tulleen datan saaminen ja näyttäminen UI components kansiossa - suunnittelua, tiedonhankintaa ja koodailua pari tuntia. Käyttäjän luomisessa form kentän lisäykset. Reduxsaucessa ei ole varsinaista store tiedostoa.
 
-# Puutteet - Buildie kommentointi
+# Puutteet
 
 - jsonplaceholder kansio fronttikoodin mukana, vaikka sitä ei siellä pitäisi olla 
 
