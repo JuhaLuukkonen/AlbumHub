@@ -1,4 +1,4 @@
-# Buildie-koodaustehtävä
+# Album Hub
 
 ### Juha Luukkonen
 
@@ -6,7 +6,7 @@ Lauantaina 10.4.2021 koodailin UI:n parissa tunnissa yhdistämällä aikaisemmin
 
 Sunnuntaina 11.4.2021 reduxsaucen - jsonplaceholder datan saaminen siihen ja edelleen reduxsaucen kautta tulleen datan saaminen ja näyttäminen UI components kansiossa - suunnittelua, tiedonhankintaa ja koodailua pari tuntia. Käyttäjän luomisessa form kentän lisäykset. Reduxsaucessa ei ole varsinaista store tiedostoa.
 
-# Puutteet - Buildie kommentointi
+# Puutteet
 
 - jsonplaceholder kansio fronttikoodin mukana, vaikka sitä ei siellä pitäisi olla 
 
@@ -92,4 +92,3 @@ Tilanhallinta on konfiguroitu valmiiksi ja sovellus käyttää `reduxsauce` -kir
 Voit käyttää apuna mitä tahansa JavaScript-kirjastoja ja käytäntöjä projektin toteuttamisessa, mutta muista perustella valintasi esim. commit-viesteissä.
 
 Palauta valmis projekti zip-paketissa, jossa .git-hakemisto on tallella. Poista projektin node_modules-hakemisto ennen zippausta. Siirrä zip-paketti Google Driveen, Dropboxiin, One driveen tai muuhun palveluun, jonka kautta voit lähettää linkin tehtävääsi. Muista tarkistaa, että linkkiin on pääsyoikeudet kunnossa.
-# buildie
