@@ -1,5 +1,11 @@
 # Album Hub
 
+Download repository and install.
+
+Yarn install
+
+Yarn start
+
 ### Juha Luukkonen
 
 Lauantaina 10.4.2021 koodailin UI:n parissa tunnissa yhdistämällä aikaisemmin koodaamani React router UI sivurakenteen, jossa voi lisätä käyttäjän ja muokkaamaan tietoja. REST:n ja Redux souce tilanhallinnan kautta en vielä saa json dataa. Luodut käyttäjät eivät vielä tallennu vaan häviävät sivua päivittäessä.
