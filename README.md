@@ -2,9 +2,9 @@
 
 Download repository and install.
 
-Npm - or Yarn install
+npm - or yarn install
 
-Npm - or Yarn start
+npm - or yarn start
 
 ### Juha Luukkonen
 
